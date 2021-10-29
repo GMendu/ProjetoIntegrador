@@ -1,7 +1,7 @@
 ﻿
 namespace ProjetoCommoond.View
 {
-    partial class Form6
+    partial class Relatorios
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,17 @@ namespace ProjetoCommoond.View
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Relatorios
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form6";
+            this.Name = "Relatorios";
+            this.Text = "Relatorios";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

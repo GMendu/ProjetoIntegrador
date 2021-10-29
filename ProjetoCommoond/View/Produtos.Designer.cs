@@ -1,7 +1,7 @@
 ﻿
 namespace ProjetoCommoond.View
 {
-    partial class Form3
+    partial class Produtos
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,17 @@ namespace ProjetoCommoond.View
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Produtos
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form3";
+            this.Name = "Produtos";
+            this.Text = "Produtos";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

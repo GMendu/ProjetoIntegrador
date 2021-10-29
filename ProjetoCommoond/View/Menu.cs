@@ -54,7 +54,7 @@ namespace ProjetoCommoond
                 DisableButton();
                 //Button
                 currentBtn = (IconButton)senderBtn;
-                currentBtn.BackColor = Color.FromArgb(37, 36, 81);
+                currentBtn.BackColor = Color.FromArgb(0, 75, 160);
                 currentBtn.ForeColor = color;
                 currentBtn.TextAlign = ContentAlignment.MiddleCenter;
                 currentBtn.IconColor = color;
@@ -75,7 +75,7 @@ namespace ProjetoCommoond
         {
             if (currentBtn != null)
             {
-                currentBtn.BackColor = Color.FromArgb(31, 30, 68);
+                currentBtn.BackColor = Color.FromArgb(25, 118, 210); 
                 currentBtn.ForeColor = Color.Gainsboro;
                 currentBtn.TextAlign = ContentAlignment.MiddleCenter;
                 currentBtn.IconColor = Color.Gainsboro;
@@ -104,40 +104,40 @@ namespace ProjetoCommoond
 
         }
 
-        private void btnDefault1_Click(object sender, EventArgs e)
+        private void btnClientes_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color1);
-            OpenChildForm(new Form2());
+            OpenChildForm(new Clientes());
         }
 
-        private void btnDefault2_Click(object sender, EventArgs e)
+        private void btnVendas_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color2);
-            OpenChildForm(new Form3());
+            OpenChildForm(new Vendas());
         }
 
-        private void btnDefault3_Click(object sender, EventArgs e)
+        private void btnProdutos_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color3);
-            OpenChildForm(new Form4());
+            OpenChildForm(new Produtos());
         }
 
-        private void btnDefault4_Click(object sender, EventArgs e)
+        private void btnFornecedores_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color4);
-            OpenChildForm(new Form5());
+            OpenChildForm(new Fornecedores());
         }
 
-        private void btnDefault5_Click(object sender, EventArgs e)
+        private void btnRelatorios_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color5);
-            OpenChildForm(new Form6());
+            OpenChildForm(new Relatorios());
         }
 
-        private void btnDefault6_Click(object sender, EventArgs e)
+        private void btnConfiguracoes_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color6);
-            OpenChildForm(new Form7());
+            OpenChildForm(new Configuracoes());
         }
 
         private void BtnHome_Click(object sender, EventArgs e)

@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace ProjetoCommoond.View
 {
-    public partial class Form5 : Form
+    public partial class Fornecedores : Form
     {
-        public Form5()
+        public Fornecedores()
         {
             InitializeComponent();
         }
