@@ -37,14 +37,14 @@ namespace ProjetoCommoond.View
             this.lblClienteInscricao = new System.Windows.Forms.Label();
             this.txtClienteNomeFantasia = new System.Windows.Forms.TextBox();
             this.lblClienteNomeFantasia = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupInfoCliente = new System.Windows.Forms.GroupBox();
             this.lblClienteObs = new System.Windows.Forms.Label();
             this.txtClienteObs = new System.Windows.Forms.RichTextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupContatosCliente = new System.Windows.Forms.GroupBox();
             this.lblClienteContatoTelefone = new System.Windows.Forms.Label();
             this.txtClienteContatoTelefone = new System.Windows.Forms.TextBox();
             this.lblClienteContatoEmail = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtClienteEmail = new System.Windows.Forms.TextBox();
             this.lblClienteContatoNome = new System.Windows.Forms.Label();
             this.txtClienteContatoNome = new System.Windows.Forms.TextBox();
             this.dataCliente = new System.Windows.Forms.DataGridView();
@@ -53,8 +53,8 @@ namespace ProjetoCommoond.View
             this.btnClienteCancelar = new FontAwesome.Sharp.IconButton();
             this.btnClienteAdicionar = new FontAwesome.Sharp.IconButton();
             this.pnlClientes = new System.Windows.Forms.Panel();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.groupInfoCliente.SuspendLayout();
+            this.groupContatosCliente.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataCliente)).BeginInit();
             this.pnlClientes.SuspendLayout();
             this.SuspendLayout();
@@ -137,30 +137,30 @@ namespace ProjetoCommoond.View
             this.lblClienteNomeFantasia.TabIndex = 8;
             this.lblClienteNomeFantasia.Text = "Nome Fantasia";
             // 
-            // groupBox1
+            // groupInfoCliente
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(118)))), ((int)(((byte)(210)))));
-            this.groupBox1.Controls.Add(this.lblClienteObs);
-            this.groupBox1.Controls.Add(this.txtClienteObs);
-            this.groupBox1.Controls.Add(this.lblClienteCnpj);
-            this.groupBox1.Controls.Add(this.txtClienteRazao);
-            this.groupBox1.Controls.Add(this.txtClienteNomeFantasia);
-            this.groupBox1.Controls.Add(this.txtClienteCnpj);
-            this.groupBox1.Controls.Add(this.lblClienteNomeFantasia);
-            this.groupBox1.Controls.Add(this.lblClienteRazao);
-            this.groupBox1.Controls.Add(this.txtClienteInscricao);
-            this.groupBox1.Controls.Add(this.lblClienteInscricao);
-            this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(13, 13);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(687, 443);
-            this.groupBox1.TabIndex = 10;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Informações empresariais";
+            this.groupInfoCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(118)))), ((int)(((byte)(210)))));
+            this.groupInfoCliente.Controls.Add(this.lblClienteObs);
+            this.groupInfoCliente.Controls.Add(this.txtClienteObs);
+            this.groupInfoCliente.Controls.Add(this.lblClienteCnpj);
+            this.groupInfoCliente.Controls.Add(this.txtClienteRazao);
+            this.groupInfoCliente.Controls.Add(this.txtClienteNomeFantasia);
+            this.groupInfoCliente.Controls.Add(this.txtClienteCnpj);
+            this.groupInfoCliente.Controls.Add(this.lblClienteNomeFantasia);
+            this.groupInfoCliente.Controls.Add(this.lblClienteRazao);
+            this.groupInfoCliente.Controls.Add(this.txtClienteInscricao);
+            this.groupInfoCliente.Controls.Add(this.lblClienteInscricao);
+            this.groupInfoCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.groupInfoCliente.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.groupInfoCliente.ForeColor = System.Drawing.Color.White;
+            this.groupInfoCliente.Location = new System.Drawing.Point(13, 13);
+            this.groupInfoCliente.Margin = new System.Windows.Forms.Padding(4);
+            this.groupInfoCliente.Name = "groupInfoCliente";
+            this.groupInfoCliente.Padding = new System.Windows.Forms.Padding(4);
+            this.groupInfoCliente.Size = new System.Drawing.Size(687, 443);
+            this.groupInfoCliente.TabIndex = 10;
+            this.groupInfoCliente.TabStop = false;
+            this.groupInfoCliente.Text = "Informações empresariais";
             // 
             // lblClienteObs
             // 
@@ -182,26 +182,26 @@ namespace ProjetoCommoond.View
             this.txtClienteObs.TabIndex = 10;
             this.txtClienteObs.Text = "";
             // 
-            // groupBox2
+            // groupContatosCliente
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(118)))), ((int)(((byte)(210)))));
-            this.groupBox2.Controls.Add(this.lblClienteContatoTelefone);
-            this.groupBox2.Controls.Add(this.txtClienteContatoTelefone);
-            this.groupBox2.Controls.Add(this.lblClienteContatoEmail);
-            this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Controls.Add(this.lblClienteContatoNome);
-            this.groupBox2.Controls.Add(this.txtClienteContatoNome);
-            this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.groupBox2.ForeColor = System.Drawing.Color.White;
-            this.groupBox2.Location = new System.Drawing.Point(708, 13);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(376, 335);
-            this.groupBox2.TabIndex = 11;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Contatos";
+            this.groupContatosCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(118)))), ((int)(((byte)(210)))));
+            this.groupContatosCliente.Controls.Add(this.lblClienteContatoTelefone);
+            this.groupContatosCliente.Controls.Add(this.txtClienteContatoTelefone);
+            this.groupContatosCliente.Controls.Add(this.lblClienteContatoEmail);
+            this.groupContatosCliente.Controls.Add(this.txtClienteEmail);
+            this.groupContatosCliente.Controls.Add(this.lblClienteContatoNome);
+            this.groupContatosCliente.Controls.Add(this.txtClienteContatoNome);
+            this.groupContatosCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.groupContatosCliente.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.groupContatosCliente.ForeColor = System.Drawing.Color.White;
+            this.groupContatosCliente.Location = new System.Drawing.Point(708, 13);
+            this.groupContatosCliente.Margin = new System.Windows.Forms.Padding(4);
+            this.groupContatosCliente.Name = "groupContatosCliente";
+            this.groupContatosCliente.Padding = new System.Windows.Forms.Padding(4);
+            this.groupContatosCliente.Size = new System.Drawing.Size(376, 335);
+            this.groupContatosCliente.TabIndex = 11;
+            this.groupContatosCliente.TabStop = false;
+            this.groupContatosCliente.Text = "Contatos";
             // 
             // lblClienteContatoTelefone
             // 
@@ -233,13 +233,13 @@ namespace ProjetoCommoond.View
             this.lblClienteContatoEmail.TabIndex = 14;
             this.lblClienteContatoEmail.Text = "E-mail";
             // 
-            // textBox2
+            // txtClienteEmail
             // 
-            this.textBox2.Location = new System.Drawing.Point(17, 180);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(338, 41);
-            this.textBox2.TabIndex = 15;
+            this.txtClienteEmail.Location = new System.Drawing.Point(17, 180);
+            this.txtClienteEmail.Margin = new System.Windows.Forms.Padding(4);
+            this.txtClienteEmail.Name = "txtClienteEmail";
+            this.txtClienteEmail.Size = new System.Drawing.Size(338, 41);
+            this.txtClienteEmail.TabIndex = 15;
             // 
             // lblClienteContatoNome
             // 
@@ -344,12 +344,12 @@ namespace ProjetoCommoond.View
             // 
             this.pnlClientes.AutoSize = true;
             this.pnlClientes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(164)))), ((int)(((byte)(255)))));
-            this.pnlClientes.Controls.Add(this.groupBox1);
+            this.pnlClientes.Controls.Add(this.groupInfoCliente);
             this.pnlClientes.Controls.Add(this.btnClienteAdicionar);
             this.pnlClientes.Controls.Add(this.btnClienteEditar);
             this.pnlClientes.Controls.Add(this.dataCliente);
             this.pnlClientes.Controls.Add(this.btnClienteCancelar);
-            this.pnlClientes.Controls.Add(this.groupBox2);
+            this.pnlClientes.Controls.Add(this.groupContatosCliente);
             this.pnlClientes.Controls.Add(this.btnClienteExcluir);
             this.pnlClientes.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlClientes.Location = new System.Drawing.Point(0, 0);
@@ -369,10 +369,10 @@ namespace ProjetoCommoond.View
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Clientes";
             this.Text = "Clientes";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.groupInfoCliente.ResumeLayout(false);
+            this.groupInfoCliente.PerformLayout();
+            this.groupContatosCliente.ResumeLayout(false);
+            this.groupContatosCliente.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataCliente)).EndInit();
             this.pnlClientes.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -390,14 +390,14 @@ namespace ProjetoCommoond.View
         private System.Windows.Forms.Label lblClienteInscricao;
         private System.Windows.Forms.TextBox txtClienteNomeFantasia;
         private System.Windows.Forms.Label lblClienteNomeFantasia;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupInfoCliente;
         private System.Windows.Forms.RichTextBox txtClienteObs;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupContatosCliente;
         private System.Windows.Forms.Label lblClienteObs;
         private System.Windows.Forms.Label lblClienteContatoTelefone;
         private System.Windows.Forms.TextBox txtClienteContatoTelefone;
         private System.Windows.Forms.Label lblClienteContatoEmail;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtClienteEmail;
         private System.Windows.Forms.Label lblClienteContatoNome;
         private System.Windows.Forms.TextBox txtClienteContatoNome;
         private System.Windows.Forms.DataGridView dataCliente;
