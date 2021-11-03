@@ -48,7 +48,7 @@ namespace ProjetoCommoond.View
             this.lblFornecContatoTelefone = new System.Windows.Forms.Label();
             this.txtFornecContatoTelefone = new System.Windows.Forms.TextBox();
             this.lblFornecContatoEmail = new System.Windows.Forms.Label();
-            this.txtFornecEmail = new System.Windows.Forms.TextBox();
+            this.txtFornecContatoEmail = new System.Windows.Forms.TextBox();
             this.lblFornecContatoNome = new System.Windows.Forms.Label();
             this.txtFornecContatoNome = new System.Windows.Forms.TextBox();
             this.btnFornecExcluir = new FontAwesome.Sharp.IconButton();
@@ -73,11 +73,11 @@ namespace ProjetoCommoond.View
             this.groupInfoFornec.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupInfoFornec.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.groupInfoFornec.ForeColor = System.Drawing.Color.White;
-            this.groupInfoFornec.Location = new System.Drawing.Point(13, 13);
-            this.groupInfoFornec.Margin = new System.Windows.Forms.Padding(4);
+            this.groupInfoFornec.Location = new System.Drawing.Point(11, 10);
+            this.groupInfoFornec.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupInfoFornec.Name = "groupInfoFornec";
-            this.groupInfoFornec.Padding = new System.Windows.Forms.Padding(4);
-            this.groupInfoFornec.Size = new System.Drawing.Size(687, 443);
+            this.groupInfoFornec.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupInfoFornec.Size = new System.Drawing.Size(601, 332);
             this.groupInfoFornec.TabIndex = 14;
             this.groupInfoFornec.TabStop = false;
             this.groupInfoFornec.Text = "Informações empresariais";
@@ -86,19 +86,19 @@ namespace ProjetoCommoond.View
             // 
             this.lblFornecObs.AutoSize = true;
             this.lblFornecObs.ForeColor = System.Drawing.Color.White;
-            this.lblFornecObs.Location = new System.Drawing.Point(20, 226);
+            this.lblFornecObs.Location = new System.Drawing.Point(18, 170);
             this.lblFornecObs.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFornecObs.Name = "lblFornecObs";
-            this.lblFornecObs.Size = new System.Drawing.Size(294, 35);
+            this.lblFornecObs.Size = new System.Drawing.Size(228, 28);
             this.lblFornecObs.TabIndex = 11;
             this.lblFornecObs.Text = "Observações e endereço:";
             // 
             // txtFornecObs
             // 
-            this.txtFornecObs.Location = new System.Drawing.Point(19, 264);
-            this.txtFornecObs.Margin = new System.Windows.Forms.Padding(4);
+            this.txtFornecObs.Location = new System.Drawing.Point(17, 198);
+            this.txtFornecObs.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtFornecObs.Name = "txtFornecObs";
-            this.txtFornecObs.Size = new System.Drawing.Size(651, 154);
+            this.txtFornecObs.Size = new System.Drawing.Size(570, 116);
             this.txtFornecObs.TabIndex = 10;
             this.txtFornecObs.Text = "";
             // 
@@ -106,47 +106,47 @@ namespace ProjetoCommoond.View
             // 
             this.lblFornecCnpj.AutoSize = true;
             this.lblFornecCnpj.ForeColor = System.Drawing.Color.White;
-            this.lblFornecCnpj.Location = new System.Drawing.Point(20, 59);
+            this.lblFornecCnpj.Location = new System.Drawing.Point(18, 44);
             this.lblFornecCnpj.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFornecCnpj.Name = "lblFornecCnpj";
-            this.lblFornecCnpj.Size = new System.Drawing.Size(70, 35);
+            this.lblFornecCnpj.Size = new System.Drawing.Size(56, 28);
             this.lblFornecCnpj.TabIndex = 0;
             this.lblFornecCnpj.Text = "CNPJ";
             // 
             // txtFornecRazao
             // 
-            this.txtFornecRazao.Location = new System.Drawing.Point(282, 96);
-            this.txtFornecRazao.Margin = new System.Windows.Forms.Padding(4);
+            this.txtFornecRazao.Location = new System.Drawing.Point(247, 72);
+            this.txtFornecRazao.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtFornecRazao.Name = "txtFornecRazao";
-            this.txtFornecRazao.Size = new System.Drawing.Size(388, 41);
+            this.txtFornecRazao.Size = new System.Drawing.Size(340, 34);
             this.txtFornecRazao.TabIndex = 3;
             // 
             // txtFornecNomeFantasia
             // 
-            this.txtFornecNomeFantasia.Location = new System.Drawing.Point(282, 180);
-            this.txtFornecNomeFantasia.Margin = new System.Windows.Forms.Padding(4);
+            this.txtFornecNomeFantasia.Location = new System.Drawing.Point(247, 135);
+            this.txtFornecNomeFantasia.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtFornecNomeFantasia.Name = "txtFornecNomeFantasia";
-            this.txtFornecNomeFantasia.Size = new System.Drawing.Size(388, 41);
+            this.txtFornecNomeFantasia.Size = new System.Drawing.Size(340, 34);
             this.txtFornecNomeFantasia.TabIndex = 9;
             // 
             // txtFornecCnpj
             // 
             this.txtFornecCnpj.BackColor = System.Drawing.SystemColors.Menu;
             this.txtFornecCnpj.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtFornecCnpj.Location = new System.Drawing.Point(19, 97);
-            this.txtFornecCnpj.Margin = new System.Windows.Forms.Padding(4);
+            this.txtFornecCnpj.Location = new System.Drawing.Point(17, 73);
+            this.txtFornecCnpj.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtFornecCnpj.Name = "txtFornecCnpj";
-            this.txtFornecCnpj.Size = new System.Drawing.Size(242, 41);
+            this.txtFornecCnpj.Size = new System.Drawing.Size(212, 34);
             this.txtFornecCnpj.TabIndex = 1;
             // 
             // lblFornecNomeFantasia
             // 
             this.lblFornecNomeFantasia.AutoSize = true;
             this.lblFornecNomeFantasia.ForeColor = System.Drawing.Color.White;
-            this.lblFornecNomeFantasia.Location = new System.Drawing.Point(283, 142);
+            this.lblFornecNomeFantasia.Location = new System.Drawing.Point(248, 106);
             this.lblFornecNomeFantasia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFornecNomeFantasia.Name = "lblFornecNomeFantasia";
-            this.lblFornecNomeFantasia.Size = new System.Drawing.Size(180, 35);
+            this.lblFornecNomeFantasia.Size = new System.Drawing.Size(141, 28);
             this.lblFornecNomeFantasia.TabIndex = 8;
             this.lblFornecNomeFantasia.Text = "Nome Fantasia";
             // 
@@ -154,29 +154,29 @@ namespace ProjetoCommoond.View
             // 
             this.lblFornecRazao.AutoSize = true;
             this.lblFornecRazao.ForeColor = System.Drawing.Color.White;
-            this.lblFornecRazao.Location = new System.Drawing.Point(283, 59);
+            this.lblFornecRazao.Location = new System.Drawing.Point(248, 44);
             this.lblFornecRazao.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFornecRazao.Name = "lblFornecRazao";
-            this.lblFornecRazao.Size = new System.Drawing.Size(154, 35);
+            this.lblFornecRazao.Size = new System.Drawing.Size(122, 28);
             this.lblFornecRazao.TabIndex = 2;
             this.lblFornecRazao.Text = "Razão Social";
             // 
             // txtFornecInscricao
             // 
-            this.txtFornecInscricao.Location = new System.Drawing.Point(19, 180);
-            this.txtFornecInscricao.Margin = new System.Windows.Forms.Padding(4);
+            this.txtFornecInscricao.Location = new System.Drawing.Point(17, 135);
+            this.txtFornecInscricao.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtFornecInscricao.Name = "txtFornecInscricao";
-            this.txtFornecInscricao.Size = new System.Drawing.Size(242, 41);
+            this.txtFornecInscricao.Size = new System.Drawing.Size(212, 34);
             this.txtFornecInscricao.TabIndex = 7;
             // 
             // lblFornecInscricao
             // 
             this.lblFornecInscricao.AutoSize = true;
             this.lblFornecInscricao.ForeColor = System.Drawing.Color.White;
-            this.lblFornecInscricao.Location = new System.Drawing.Point(20, 142);
+            this.lblFornecInscricao.Location = new System.Drawing.Point(18, 106);
             this.lblFornecInscricao.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFornecInscricao.Name = "lblFornecInscricao";
-            this.lblFornecInscricao.Size = new System.Drawing.Size(214, 35);
+            this.lblFornecInscricao.Size = new System.Drawing.Size(166, 28);
             this.lblFornecInscricao.TabIndex = 6;
             this.lblFornecInscricao.Text = "Inscrição Estadual";
             // 
@@ -189,10 +189,10 @@ namespace ProjetoCommoond.View
             this.btnFornecAdicionar.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btnFornecAdicionar.IconColor = System.Drawing.Color.Black;
             this.btnFornecAdicionar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnFornecAdicionar.Location = new System.Drawing.Point(708, 356);
-            this.btnFornecAdicionar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnFornecAdicionar.Location = new System.Drawing.Point(620, 267);
+            this.btnFornecAdicionar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnFornecAdicionar.Name = "btnFornecAdicionar";
-            this.btnFornecAdicionar.Size = new System.Drawing.Size(182, 46);
+            this.btnFornecAdicionar.Size = new System.Drawing.Size(159, 34);
             this.btnFornecAdicionar.TabIndex = 17;
             this.btnFornecAdicionar.Text = "Adicionar";
             this.btnFornecAdicionar.UseVisualStyleBackColor = false;
@@ -206,10 +206,10 @@ namespace ProjetoCommoond.View
             this.btnFornecEditar.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btnFornecEditar.IconColor = System.Drawing.Color.Black;
             this.btnFornecEditar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnFornecEditar.Location = new System.Drawing.Point(708, 410);
-            this.btnFornecEditar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnFornecEditar.Location = new System.Drawing.Point(620, 308);
+            this.btnFornecEditar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnFornecEditar.Name = "btnFornecEditar";
-            this.btnFornecEditar.Size = new System.Drawing.Size(182, 46);
+            this.btnFornecEditar.Size = new System.Drawing.Size(159, 34);
             this.btnFornecEditar.TabIndex = 18;
             this.btnFornecEditar.Text = "Editar";
             this.btnFornecEditar.UseVisualStyleBackColor = false;
@@ -218,12 +218,12 @@ namespace ProjetoCommoond.View
             // 
             this.dataFornec.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(118)))), ((int)(((byte)(210)))));
             this.dataFornec.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataFornec.Location = new System.Drawing.Point(13, 464);
-            this.dataFornec.Margin = new System.Windows.Forms.Padding(4);
+            this.dataFornec.Location = new System.Drawing.Point(11, 348);
+            this.dataFornec.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.dataFornec.Name = "dataFornec";
             this.dataFornec.RowHeadersWidth = 51;
             this.dataFornec.RowTemplate.Height = 25;
-            this.dataFornec.Size = new System.Drawing.Size(1071, 246);
+            this.dataFornec.Size = new System.Drawing.Size(937, 184);
             this.dataFornec.TabIndex = 16;
             // 
             // btnFornecCancelar
@@ -235,10 +235,10 @@ namespace ProjetoCommoond.View
             this.btnFornecCancelar.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btnFornecCancelar.IconColor = System.Drawing.Color.Black;
             this.btnFornecCancelar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnFornecCancelar.Location = new System.Drawing.Point(902, 356);
-            this.btnFornecCancelar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnFornecCancelar.Location = new System.Drawing.Point(789, 267);
+            this.btnFornecCancelar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnFornecCancelar.Name = "btnFornecCancelar";
-            this.btnFornecCancelar.Size = new System.Drawing.Size(182, 46);
+            this.btnFornecCancelar.Size = new System.Drawing.Size(159, 34);
             this.btnFornecCancelar.TabIndex = 19;
             this.btnFornecCancelar.Text = "Cancelar";
             this.btnFornecCancelar.UseVisualStyleBackColor = false;
@@ -249,17 +249,17 @@ namespace ProjetoCommoond.View
             this.groupContatoFornec.Controls.Add(this.lblFornecContatoTelefone);
             this.groupContatoFornec.Controls.Add(this.txtFornecContatoTelefone);
             this.groupContatoFornec.Controls.Add(this.lblFornecContatoEmail);
-            this.groupContatoFornec.Controls.Add(this.txtFornecEmail);
+            this.groupContatoFornec.Controls.Add(this.txtFornecContatoEmail);
             this.groupContatoFornec.Controls.Add(this.lblFornecContatoNome);
             this.groupContatoFornec.Controls.Add(this.txtFornecContatoNome);
             this.groupContatoFornec.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupContatoFornec.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.groupContatoFornec.ForeColor = System.Drawing.Color.White;
-            this.groupContatoFornec.Location = new System.Drawing.Point(708, 13);
-            this.groupContatoFornec.Margin = new System.Windows.Forms.Padding(4);
+            this.groupContatoFornec.Location = new System.Drawing.Point(620, 10);
+            this.groupContatoFornec.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupContatoFornec.Name = "groupContatoFornec";
-            this.groupContatoFornec.Padding = new System.Windows.Forms.Padding(4);
-            this.groupContatoFornec.Size = new System.Drawing.Size(376, 335);
+            this.groupContatoFornec.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupContatoFornec.Size = new System.Drawing.Size(329, 251);
             this.groupContatoFornec.TabIndex = 15;
             this.groupContatoFornec.TabStop = false;
             this.groupContatoFornec.Text = "Contatos";
@@ -268,57 +268,57 @@ namespace ProjetoCommoond.View
             // 
             this.lblFornecContatoTelefone.AutoSize = true;
             this.lblFornecContatoTelefone.ForeColor = System.Drawing.Color.White;
-            this.lblFornecContatoTelefone.Location = new System.Drawing.Point(18, 226);
+            this.lblFornecContatoTelefone.Location = new System.Drawing.Point(16, 170);
             this.lblFornecContatoTelefone.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFornecContatoTelefone.Name = "lblFornecContatoTelefone";
-            this.lblFornecContatoTelefone.Size = new System.Drawing.Size(210, 35);
+            this.lblFornecContatoTelefone.Size = new System.Drawing.Size(164, 28);
             this.lblFornecContatoTelefone.TabIndex = 16;
             this.lblFornecContatoTelefone.Text = "Telefone Principal";
             // 
             // txtFornecContatoTelefone
             // 
-            this.txtFornecContatoTelefone.Location = new System.Drawing.Point(17, 264);
-            this.txtFornecContatoTelefone.Margin = new System.Windows.Forms.Padding(4);
+            this.txtFornecContatoTelefone.Location = new System.Drawing.Point(15, 198);
+            this.txtFornecContatoTelefone.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtFornecContatoTelefone.Name = "txtFornecContatoTelefone";
-            this.txtFornecContatoTelefone.Size = new System.Drawing.Size(338, 41);
+            this.txtFornecContatoTelefone.Size = new System.Drawing.Size(296, 34);
             this.txtFornecContatoTelefone.TabIndex = 17;
             // 
             // lblFornecContatoEmail
             // 
             this.lblFornecContatoEmail.AutoSize = true;
             this.lblFornecContatoEmail.ForeColor = System.Drawing.Color.White;
-            this.lblFornecContatoEmail.Location = new System.Drawing.Point(18, 141);
+            this.lblFornecContatoEmail.Location = new System.Drawing.Point(16, 106);
             this.lblFornecContatoEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFornecContatoEmail.Name = "lblFornecContatoEmail";
-            this.lblFornecContatoEmail.Size = new System.Drawing.Size(85, 35);
+            this.lblFornecContatoEmail.Size = new System.Drawing.Size(67, 28);
             this.lblFornecContatoEmail.TabIndex = 14;
             this.lblFornecContatoEmail.Text = "E-mail";
             // 
-            // txtFornecEmail
+            // txtFornecContatoEmail
             // 
-            this.txtFornecEmail.Location = new System.Drawing.Point(17, 180);
-            this.txtFornecEmail.Margin = new System.Windows.Forms.Padding(4);
-            this.txtFornecEmail.Name = "txtFornecEmail";
-            this.txtFornecEmail.Size = new System.Drawing.Size(338, 41);
-            this.txtFornecEmail.TabIndex = 15;
+            this.txtFornecContatoEmail.Location = new System.Drawing.Point(15, 135);
+            this.txtFornecContatoEmail.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtFornecContatoEmail.Name = "txtFornecContatoEmail";
+            this.txtFornecContatoEmail.Size = new System.Drawing.Size(296, 34);
+            this.txtFornecContatoEmail.TabIndex = 15;
             // 
             // lblFornecContatoNome
             // 
             this.lblFornecContatoNome.AutoSize = true;
             this.lblFornecContatoNome.ForeColor = System.Drawing.Color.White;
-            this.lblFornecContatoNome.Location = new System.Drawing.Point(18, 58);
+            this.lblFornecContatoNome.Location = new System.Drawing.Point(16, 44);
             this.lblFornecContatoNome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFornecContatoNome.Name = "lblFornecContatoNome";
-            this.lblFornecContatoNome.Size = new System.Drawing.Size(216, 35);
+            this.lblFornecContatoNome.Size = new System.Drawing.Size(171, 28);
             this.lblFornecContatoNome.TabIndex = 12;
             this.lblFornecContatoNome.Text = "Nome do Contato";
             // 
             // txtFornecContatoNome
             // 
-            this.txtFornecContatoNome.Location = new System.Drawing.Point(17, 96);
-            this.txtFornecContatoNome.Margin = new System.Windows.Forms.Padding(4);
+            this.txtFornecContatoNome.Location = new System.Drawing.Point(15, 72);
+            this.txtFornecContatoNome.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtFornecContatoNome.Name = "txtFornecContatoNome";
-            this.txtFornecContatoNome.Size = new System.Drawing.Size(338, 41);
+            this.txtFornecContatoNome.Size = new System.Drawing.Size(296, 34);
             this.txtFornecContatoNome.TabIndex = 13;
             // 
             // btnFornecExcluir
@@ -330,20 +330,20 @@ namespace ProjetoCommoond.View
             this.btnFornecExcluir.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btnFornecExcluir.IconColor = System.Drawing.Color.Black;
             this.btnFornecExcluir.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnFornecExcluir.Location = new System.Drawing.Point(902, 410);
-            this.btnFornecExcluir.Margin = new System.Windows.Forms.Padding(4);
+            this.btnFornecExcluir.Location = new System.Drawing.Point(789, 308);
+            this.btnFornecExcluir.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnFornecExcluir.Name = "btnFornecExcluir";
-            this.btnFornecExcluir.Size = new System.Drawing.Size(182, 46);
+            this.btnFornecExcluir.Size = new System.Drawing.Size(159, 34);
             this.btnFornecExcluir.TabIndex = 20;
             this.btnFornecExcluir.Text = "Excluir";
             this.btnFornecExcluir.UseVisualStyleBackColor = false;
             // 
             // Fornecedores
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(164)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1097, 723);
+            this.ClientSize = new System.Drawing.Size(960, 542);
             this.Controls.Add(this.groupInfoFornec);
             this.Controls.Add(this.btnFornecAdicionar);
             this.Controls.Add(this.btnFornecEditar);
@@ -351,7 +351,6 @@ namespace ProjetoCommoond.View
             this.Controls.Add(this.btnFornecCancelar);
             this.Controls.Add(this.groupContatoFornec);
             this.Controls.Add(this.btnFornecExcluir);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Fornecedores";
             this.Text = "Fornecedores";
             this.groupInfoFornec.ResumeLayout(false);
@@ -384,7 +383,7 @@ namespace ProjetoCommoond.View
         private System.Windows.Forms.Label lblFornecContatoTelefone;
         private System.Windows.Forms.TextBox txtFornecContatoTelefone;
         private System.Windows.Forms.Label lblFornecContatoEmail;
-        private System.Windows.Forms.TextBox txtFornecEmail;
+        private System.Windows.Forms.TextBox txtFornecContatoEmail;
         private System.Windows.Forms.Label lblFornecContatoNome;
         private System.Windows.Forms.TextBox txtFornecContatoNome;
         private FontAwesome.Sharp.IconButton btnFornecExcluir;
